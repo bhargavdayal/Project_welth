@@ -25,6 +25,14 @@ const Header = () => {
                 <span>Dashboard</span>
               </Button>
             </Link>
+
+            <Link href="/transaction/create">
+              <Button variant="outline">
+                <LayoutDashboard size={18}/>
+                <span>Dashboard</span>
+              </Button>
+            </Link>
+
           </SignedIn>
     <SignedOut>
         <SignInButton forceRedirectUrl="/dashboard">
